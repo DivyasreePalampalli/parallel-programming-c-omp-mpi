@@ -10,5 +10,6 @@ int main() {
 }
 
 
-#gcc -fopenmp omp_check.c -o omp_check
-:
+// gcc -fopenmp omp_check.c -o omp_check
+// gcc -fopenmp -dM -E - < /dev/null | grep -i openmp
+
